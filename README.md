@@ -1,6 +1,6 @@
 # Inventory Overview
 
-{Provide a description of the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
+This program creates two tables to help keep track of store information and purchases made. The first table will record the store ID and location for each store, while the second table will record the purchase ID, store ID, and total cost. Both of the tables have a common field for Store IDs to tie the purchases to the store location. This makes it possible to see all relevant information to that table, as well as find further information in related tables.
 
 I wrote this software to help practice and demonstrate the skills I've been developing using databases, SQLite, and Python. This program demonstrates common database operations like creating tables, inserting data, selecting data, updating records, and deleting records.
 
